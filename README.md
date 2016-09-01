@@ -12,6 +12,6 @@ You can a pretty decent .net environment on a mac with brew:
 
 Comes with a make file:
 
-`make build`
+`make` will try to install the dependencies (nspec), build the solution and run the tests
 
 `make tests`
