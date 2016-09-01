@@ -1,7 +1,7 @@
 all:
 	make deps; make build; make tests
 deps:
-	nuget install
+	nuget install; nuget restore
 build:
 	msbuild
 tests:
