@@ -1,0 +1,17 @@
+# csharp_interview_prep
+
+Note: this has been setup and ran successfully on a mac.
+
+You can a pretty decent .net environment on a mac with brew:
+
+`brew install mono`
+
+`brew install nuget`
+
+`brew cask install xamarin-studio`
+
+Comes with a make file:
+
+`make build`
+
+`make tests`
